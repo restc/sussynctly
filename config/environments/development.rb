@@ -34,4 +34,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+
+  # Added based on Devise tutorial on TeamTreehouse.com http://teamtreehouse.com/library/build-a-simple-ruby-on-rails-application/creating-an-authentication-system/installing-devise-2
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
